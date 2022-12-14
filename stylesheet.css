@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    float: none;
+	position: static;
+}
+.iphonever{
+    display: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+
+}
+header{
+    background-color: black;
+    height: 70px;
+    
+}
+.container{
+    width: 1440px;
+    
+}
+.header-left img{
+    width: 120px;
+    float: left;
+}
+.header-left h3{
+    color: azure;
+    padding-top: 21px;
+    float: left;
+}
+
+
+.swich-wrapper{
+    background-color: grey;
+    height: 70px;
+    text-align: center;
+}
+.swich-wrapper a{
+    padding: 0 75px;
+    background-color: white;
+    line-height: 70px;
+    display: inline-block;
+    color: black;
+    opacity: 0.6;
+    font-size: 20px;
+    transition: 0.3s;
+    font-family: "Arial Black";   
+}
+
+.swich-wrapper a:hover{
+    opacity: 1;
+}
+.history-wrapper{
+    background-image: url(/img/background.png);
+    background-size: contain;
+    height: 100%;
+}
+.history{
+    background-image: url(/img/history_back1.JPG);
+    background-size:contain;
+    width: 1200px;
+    margin: auto;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+}
+.hisroty-text{
+    background-color:rgba(4, 1, 1, 0.7);
+}
+.hisroty-text h1{
+    font-size: 60px;
+    color: white;
+    font-family: 'Caveat', cursive;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    transform: scaleX(1.5);
+    padding-left: 200px;
+    
+}
+.hisroty-text h3{
+    color: white;
+    font-size: 15px;
+    width: 360px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+
+.HIS2022list h2{
+    font-size: 30px;
+    color: azure;
+    padding:20px; 
+}
+
+.history2022 p{
+    color: azure;
+    font-size: 20px;
+    margin: auto;
+    padding-top: 10px;
+    border-top: 1px dotted white;
+    width: 1100px;
+    padding-bottom: 10px;
+}
+.history2022 a{
+    font-size: 20px;
+    margin: auto;
+    padding-top: 10px;
+    border-top: 1px dotted white;
+    width: 1100px;
+    padding-bottom: 10px;
+    display: block;
+    color: rgb(91, 145, 246);
+    text-decoration: none;
+}
+
+.allow{
+    padding-bottom: 100px;
+}
+ul{
+    padding-left: 80px;
+    padding-bottom: 20px;
+}
+ul img{
+    padding-top: 10px;
+    margin-right: 10px;
+}
+.HIS-bottom{
+    border-bottom:1px dotted white;
+    padding-bottom: 30px;
+}
