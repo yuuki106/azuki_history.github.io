@@ -57,6 +57,7 @@ header{
     background-image: url(https://github.com/yuuki106/azuki_history/blob/main/background.png?raw=true);
     background-size: contain;
     height: 100%;
+    border-top: 20px solid black;
 }
 .history{
     background-image: url(https://github.com/yuuki106/azuki_history/blob/main/history_back1.JPG?raw=true);
